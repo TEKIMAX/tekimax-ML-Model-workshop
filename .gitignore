@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.uv/
+
+# Training artifacts (these get large — push the model to the Hub instead)
+qwen3-ml-coder/
+checkpoints/
+*.gguf
+runs/
+wandb/
+
+# Data caches
+.cache/
+data/raw/
+
+# OS
+.DS_Store
+
+# Secrets — never commit your HF token
+.env
+
+# Presentation deck — talking points for the live talk, not shipped docs.
+# (docs/ is the reproduction guide attendees follow; this is the speaker's deck.)
+WORKSHOP_SLIDES.md
+WORKSHOP_SLIDES.html
+WORKSHOP_SLIDES.pdf
+slides/
+
+# llama.cpp clone (built locally by scripts/quantize_gguf.sh)
+.llama_cpp/
+
+# trained model outputs
+granite-ml-coder/
+llama32-ml-coder/
+*-ml-coder/
+
+# training logs
+*.log

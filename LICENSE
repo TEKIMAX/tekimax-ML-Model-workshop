@@ -1,0 +1,44 @@
+TEKIMAX ML Model Workshop
+Copyright (c) 2026 TEKIMAX / Christian Kaman
+
+This work (the "cookbook" / workshop — including the documentation in docs/, the
+example code in src/ and scripts/, the notebooks, and all written materials in
+this repository) is licensed under the
+
+    Creative Commons Attribution-NonCommercial 4.0 International License
+    (CC BY-NC 4.0)
+
+You are free to:
+  • Share — copy and redistribute the material in any medium or format
+  • Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  • Attribution — You must give appropriate credit to TEKIMAX / Christian Kaman,
+    provide a link to this repository and the license, and indicate if changes
+    were made. You may do so in any reasonable manner, but not in any way that
+    suggests the licensor endorses you or your use.
+  • NonCommercial — You may NOT use the material for commercial purposes. This
+    includes selling it, selling access to it, or redistributing it (in whole or
+    in part) for monetary gain or as part of a paid product or service, without
+    prior written permission from the copyright holder.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full legal text:
+    https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary:
+    https://creativecommons.org/licenses/by-nc/4.0/
+
+----------------------------------------------------------------------
+Scope notes
+----------------------------------------------------------------------
+• The fine-tuned MODEL WEIGHTS published separately on the Hugging Face Hub
+  (Tekimax/granite-ml-coder and Tekimax/granite-ml-coder-GGUF) are derived from
+  IBM Granite 3.1 (Apache-2.0) and are distributed under Apache-2.0, per the base
+  model's license. This CC BY-NC 4.0 license applies to the workshop repository
+  content, not to those model weights.
+• Third-party components retain their own licenses (e.g. the base model, the
+  training dataset, and any libraries used).
+
+For commercial use or licensing inquiries, contact TEKIMAX.

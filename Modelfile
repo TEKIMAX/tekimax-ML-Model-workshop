@@ -1,0 +1,17 @@
+# Modelfile — serve the fine-tuned model locally with Ollama.
+#
+# Build it (after running scripts/quantize_gguf.sh):
+#   ollama create granite-ml-coder -f Modelfile
+# Run it:
+#   ollama run granite-ml-coder "Write a Keras autoencoder for network anomaly detection"
+#
+# Point FROM at the GGUF produced in Chapter 8.
+FROM ./granite-ml-coder-Q4_K_M.gguf
+
+# Sampling defaults tuned for clean code output.
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER num_ctx 4096
+
+# Same persona we fine-tuned with — keep it consistent between training and serving.
+SYSTEM """You are an expert Python machine-learning engineer. Write correct, runnable code, explain each pipeline step, watch for overfitting and how gradient descent converges, and recommend the best model or formula for the task."""
